@@ -7,15 +7,12 @@
 		"dev": "node src/lib/utils/posts.js && node src/lib/utils/extract-slugs.js && vite dev",
 		"build": "vite build",
 		"prebuild": "node src/lib/utils/posts.js && node src/lib/utils/extract-slugs.js",
-		"deploy:cloudflare": "pnpm build && wrangler deploy",
-		"preview:cloudflare": "pnpm build && wrangler dev",
-		"preview": "vite preview",
+		"start": "vite preview",
 		"prepare": "svelte-kit sync || echo ''",
 		"check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
 		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch"
 	},
 	"devDependencies": {
-		"@sveltejs/adapter-cloudflare": "^7.2.8",
 		"@sveltejs/adapter-node": "^5.5.4",
 		"@sveltejs/adapter-static": "^3.0.10",
 		"@sveltejs/kit": "^2.55.0",
@@ -25,14 +22,12 @@
 		"@types/node": "^25.5.0",
 		"axios": "^1.13.6",
 		"gray-matter": "^4.0.3",
-		"groq-sdk": "^0.37.0",
 		"marked": "^17.0.4",
 		"mdsvex": "^0.12.7",
 		"svelte": "^5.53.12",
 		"svelte-check": "^4.4.5",
 		"tailwindcss": "^4.2.1",
 		"typescript": "^5.9.3",
-		"vite": "^7.3.1",
-		"wrangler": "^4.69.0"
+		"vite": "^7.3.1"
 	}
 }

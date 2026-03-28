@@ -11,9 +11,9 @@
 			<h3 class="text-sm font-semibold uppercase tracking-wider text-[#ff7a00]">Explore</h3>
 			<ul class="mt-3 space-y-2 text-sm">
 				<li><a href="/" class=" transition hover:text-[#ff7a00]">Home</a></li>
-				<li><a href="/privacy-policy" class=" transition hover:text-[#ff7a00]">Privacy-policy</a></li>
-				<li><a href="/terms" class=" transition hover:text-[#ff7a00]">Terms</a></li>
-				<li><a href="/disclaimer" class=" transition hover:text-[#ff7a00]">Disclaimer</a></li>
+				<li><a href="/" class=" transition hover:text-[#ff7a00]">Privacy-policy</a></li>
+				<li><a href="/" class=" transition hover:text-[#ff7a00]">Terms</a></li>
+				<li><a href="/" class=" transition hover:text-[#ff7a00]">Disclaimer</a></li>
 			</ul>
 		</section>
 

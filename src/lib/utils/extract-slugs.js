@@ -4,7 +4,7 @@ import path from 'path';
 async function extractSlugs() {
   const inputPath = path.join(import.meta.dirname, '..', '..', 'lib', 'data', 'posts.json');
   const outputPath = path.join(import.meta.dirname, '..', '..', 'lib', 'data', 'slugs.txt');
-  const imagesDir = path.join(import.meta.dirname, '..', '..', '..', 'static', 'i');
+  const imagesDir = path.join(import.meta.dirname, '..', '..', '..', 'static', 'images');
   const imagesOutputPath = path.join(import.meta.dirname, '..', '..', 'lib', 'data', 'image-paths.json');
 
   try {
@@ -19,7 +19,7 @@ async function extractSlugs() {
       .filter(slug => slug);
     const imagePaths = imageFiles
       .filter(file => file.endsWith('.avif'))
-      .map(file => `/i/${file}`)
+      .map(file => `/images/${file}`)
       .sort();
 
     await Promise.all([

@@ -1,0 +1,16 @@
+[
+  {
+    "title": "example title",
+    "date": 1707868800000,
+    "draft": false,
+    "summary": "Write something",
+    "image": "/image.avif",
+    "tags": [
+      "Joo"
+    ],
+    "author": "Name",
+    "content": "<h1>This is main title.</h1>\n<p>This is just a example</p>\n<h2>this is second heading</h2>\n<p>thoije this is the paragrah you should write.</p>\n<h2>this is second heading</h2>\n",
+    "slug": "example",
+    "tag": null
+  }
+]
