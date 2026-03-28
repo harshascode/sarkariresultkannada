@@ -7,7 +7,7 @@
 
 	const navLinks = [
 		{ href: '/', label: 'Home' },
-		{ href: '/#movies', label: 'Movies' },
+		{ href: '/#job', label: 'Job' },
 		{ href: '/#about', label: 'About' }
 	];
 
@@ -58,7 +58,7 @@
 				class="rounded-md text-2xl font-bold  focus:ring-2 focus:ring-[#ff7a00] focus:outline-none"
 				onclick={closeMenu}
 			>
-				MKVCinemas
+				website Name
 			</a>
 
 			<div class="hidden items-center space-x-6 md:flex">

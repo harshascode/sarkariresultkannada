@@ -10,21 +10,21 @@
 	}
 
 	let {
-		title = 'Mkvcinemas - Watch mkvcinemas Telugu Movies | mkvcinemas1.com',
-		description = 'mkvCinemas PC and Smartphone Movies. Watch and download the latest mkvcinemas movies in HD - mkvcinemas1.com',
+		title = '',
+		description = '',
 		ogImg = '',
-		keywords = 'mkvcinemas, mkvcinemas movies, mkvcinemas.com, mkv cinemas, mkvcinemas mkv, mkvcinemas app',
+		keywords = '',
 		author = ''
 	}: Props = $props();
 
 	// Ensure canonical URL always uses HTTPS
 	const canonicalUrl = $derived(
-		page.url ? `https://mkvcinemas1.com${page.url.pathname}` : 'https://mkvcinemas1.com'
+		page.url ? `https://website.com${page.url.pathname}` : ''
 	);
 
 	// const ogImg = '';
 	// const ogImg = `${config.siteUrl}/og-image.webp`;
-	// const ogImg = 'https://mkvcinemas1.com/og-image.webp';
+	// const ogImg = 'https://website.com/og-image.webp';
 </script>
 
 <svelte:head>
@@ -45,7 +45,7 @@
 
 	<!-- Twitter Meta Tags -->
 	<meta name="twitter:card" content="summary_large_image" />
-	<meta property="twitter:domain" content="https://mkvcinemas1.com" />
+	<meta property="twitter:domain" content="" />
 	<meta property="twitter:url" content={canonicalUrl} />
 	<meta name="twitter:title" content={title} />
 	<meta name="twitter:description" content={description} />

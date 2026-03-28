@@ -1,6 +1,6 @@
 import { mdsvex } from 'mdsvex';
-// import adapter from '@sveltejs/adapter-node';
-import adapter from '@sveltejs/adapter-cloudflare';
+import adapter from '@sveltejs/adapter-node';
+// import adapter from '@sveltejs/adapter-cloudflare';
 
 /** @type {import('mdsvex').MdsvexOptions} */
 const mdsvexOptions = {

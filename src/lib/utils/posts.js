@@ -10,7 +10,7 @@ const __dirname = path.dirname(__filename);
 const PROJECT_ROOT = path.resolve(__dirname, '../../..');
 
 // Configuration
-const CONTENT_DIR = path.join(PROJECT_ROOT, 'content/posts');
+const CONTENT_DIR = path.join(PROJECT_ROOT, 'content');
 const OUTPUT_DIR = path.join(PROJECT_ROOT, 'src/lib/data');
 const OUTPUT_FILE = path.join(OUTPUT_DIR, 'posts.json');
 

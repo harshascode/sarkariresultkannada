@@ -1,9 +1,9 @@
 <footer class="bg-[#000000] ">
 	<div class="mx-auto grid max-w-6xl gap-8 px-4 py-10 md:grid-cols-3 md:px-6">
 		<section>
-			<h2 class="text-xl font-bold tracking-wide">Mkvcinemas</h2>
+			<h2 class="text-xl font-bold tracking-wide">Sarkari Result Kannada</h2>
 			<p class="mt-3 max-w-sm text-sm ">
-				Movie reviews, updates, and film coverage from South Indian and Indian cinema.
+				write something here.
 			</p>
 		</section>
 
@@ -20,7 +20,7 @@
 		<section>
 			<h3 class="text-sm font-semibold uppercase tracking-wider text-[#ff7a00]">Connect</h3>
 			<ul class="mt-3 space-y-2 text-sm">
-				<li><a href="mailto:contact@mkvcinemas1.com" class=" transition hover:text-[#ff7a00]">contact@mkvcinemas1.com</a></li>
+				<li><a href="mailto:contact@website.com" class=" transition hover:text-[#ff7a00]">contact@website.com</a></li>
 				<li>
 					<a href="https://x.com" target="_blank" rel="noreferrer" class=" transition hover:text-[#ff7a00]">X (Twitter)</a>
 				</li>
@@ -32,6 +32,6 @@
 	</div>
 
 	<div class=" px-4 py-4 text-center text-xs  md:px-6">
-		© {new Date().getFullYear()} Mkvcinemas. All rights reserved.
+		© {new Date().getFullYear()}. All rights reserved.
 	</div>
 </footer>

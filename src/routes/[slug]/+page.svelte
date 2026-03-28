@@ -8,8 +8,8 @@
     // 1. Define your placeholder URL here
     const PLACEHOLDER_IMAGE = '/placeholder.avif';
 
-    let title = $derived(post.title + ' Movie - ' + 'Mkvcinemas1.com' || 'Mkvcinemas1.com');
-    let description = $derived(post.summary.slice(0, 138) + ' Mkvcinemas1.com' || 'Watch the Movies on Mkvcinemas1.com');
+    let title = $derived(post.title + '' || '');
+    let description = $derived(post.summary.slice(0, 138) + '' || '');
     let keywords = $derived(post.keywords);
     
     // 2. Fallback for OpenGraph image
